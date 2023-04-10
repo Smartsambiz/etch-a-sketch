@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+  }
+  
+  #container {
+    background-color: blue;
+    display: grid;
+    height: 50em;
+    width: 50em;
+    border: 1px solid black;
+    
+    
+    border: 1px solid black;
+  }
+
+  .square {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  button {
+    font-size: x-large;
+
+  }
+  #active :hover {
+    background-color: #666;
+    color: white;
+  }
